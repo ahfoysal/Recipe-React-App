@@ -9,7 +9,7 @@ function Popular() {
   useEffect(() => {
     getPopular();
   }, []);
-  const key = '80e176ea7e6b4825986c2c6409c47d18';
+  const key = '3eb43ca545e74bd596be01971ec1bf5b';
 
   const getPopular = async () => {
     const check = localStorage.getItem('popular')

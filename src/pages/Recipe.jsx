@@ -9,7 +9,7 @@ function Recipe() {
   let params = useParams();
   const [details , setDetails] = useState({});
 
-const key = '80e176ea7e6b4825986c2c6409c47d18';
+const key = '3eb43ca545e74bd596be01971ec1bf5b';
 const fetchDetails = async () =>{
 const data = await fetch (`https://api.spoonacular.com/recipes/${params.name}/information?apiKey=${key}`)
 const detailData = await data.json();
