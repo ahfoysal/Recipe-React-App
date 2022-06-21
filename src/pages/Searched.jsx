@@ -8,7 +8,7 @@ import {Link} from  'react-router-dom'
 function Searched() {
     const [searchedRecipes, setSearchedRecipes] = useState([]);
     let params = useParams();
-    const key = '3eb43ca545e74bd596be01971ec1bf5b';
+    const key = '83eb4662ee9b495b8b922c39052652ee';
 
     const getSearched = async (name) => {
     const data = await fetch(`https://api.spoonacular.com/recipes/complexSearch?apiKey=${key}&query=${name}`);
